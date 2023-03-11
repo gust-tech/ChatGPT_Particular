@@ -25,7 +25,7 @@ module.exports ={
             return res.status(400).json({
                 sucess:false,
                 error: error.response ?
-                error.response.data : 'tem erro no servidor'
+                error.response.data : 'Error no Servidor (Code 400)'
             })
         }
     }
